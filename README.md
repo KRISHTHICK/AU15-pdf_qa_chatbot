@@ -14,3 +14,17 @@ RAG Retrieval → Searches vector DB for relevant chunks.
 LLM Query → Sends retrieved context + question to Ollama LLM.
 
 Display Answer → Shows conversation in Streamlit.
+
+Step 4 – Running the App
+
+Start Ollama and pull a model (example with llama2):
+
+ollama pull llama2
+
+
+Run the app:
+
+streamlit run app.py
+
+
+Open in your browser and start chatting with your PDF.
